@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #e3f2fd, #f8fbff);
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 30px auto;
+}
+
+h1 {
+  text-align: center;
+  color: #1e3a8a;
+  margin-bottom: 25px;
+  font-size: 36px;
+}
+
+h2 {
+  text-align: center;
+  margin: 25px 0;
+  color: #334155;
+}
+
+/* Form */
+
+form {
+  width: 450px;
+  margin: auto;
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,.1);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+}
+
+input:focus,
+select:focus {
+  border-color: #2563eb;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: .3s;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+/* Dashboard Table */
+
+table {
+  width: 100%;
+  margin-top: 30px;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,.08);
+}
+
+th {
+  background: #2563eb;
+  color: white;
+  padding: 14px;
+}
+
+td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+
+tr:nth-child(even) {
+  background: #f8fafc;
+}
+
+tr:hover {
+  background: #eef4ff;
+}
+
+/* Status Colors */
+
+.status-open {
+  color: #2563eb;
+  font-weight: bold;
+}
+
+.status-target {
+  color: green;
+  font-weight: bold;
+}
+
+.status-stop {
+  color: red;
+  font-weight: bold;
+}
+
+.status-expired {
+  color: gray;
+  font-weight: bold;
+}
+
+/* Delete Button */
+
+.delete-btn {
+  background: #ef4444;
+}
+
+.delete-btn:hover {
+  background: #dc2626;
+}
