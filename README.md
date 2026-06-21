@@ -59,7 +59,7 @@ npm run dev
 Create a MySQL database named:
 
 ```sql
-trading_signals
+trading_signal_tracker
 ```
 
 Then import the provided SQL table.
